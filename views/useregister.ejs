@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration</title>
+    <link rel = "stylesheet" href = "/css/hRegister.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <div class = "header">
+            <h2>WELCOME</h2>
+            <h2>USER REGISTRATION</h2>
+        </div>
+        <div class = "form-div">
+            <h1>Enter your details here</h1>
+            <div >
+               
+                <form method = "post" action = "/userRegister">
+                    <input type = "text" id = "f-name" name = "name" placeholder= "Name">
+                    <input type = "password" id = "l-name" name="password" placeholder= "Password">
+                    <br>
+                    <input type = "password" id = "f-name" name = "n" placeholder= "Confirm password">
+                    <input type = "text" name="age" placeholder="age">
+                    <input type = "email" id = "email" name = "email" placeholder= "Your Email">
+                    <input type = "text" id = "phone" name = "phone" placeholder="Phone">
+                    <input type = "text" id = "phone" name = "city" placeholder="City">
+                    <input type = "text" id = "f-name" name = "state" placeholder= "State">
+                    <select name = "blood">
+                        <option value="none" disabled selected>Choose blood type</option>
+                        <option value="aPlus">A+</option>
+                        <option value="aMin">A-</option>
+                        <option value="bPlus">B+</option>
+                        <option value="bMin">B-</option>
+                        <option value="oPlus">O+</option>
+                        <option value="oMin">O-</option>
+                        <option value="abPlus">AB+</option>
+                        <option value="abMin">AB-</option>
+                    </select>
+                    <br><br>
+                    
+                    <button class = "reset" type = "reset">Reset</button>
+                    <button class = "Register">Register</button>
+                    
+                </form> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

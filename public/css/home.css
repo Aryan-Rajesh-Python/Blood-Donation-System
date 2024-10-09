@@ -1,0 +1,34 @@
+.info{
+    background-image: url("/images/finalbg.png");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.buttons{
+    padding-top: 200px;
+    padding-bottom: 50px;   
+    margin-left: 75%;
+}
+
+.myB{
+    width: 60%;
+}
+
+.slinks{
+    text-decoration: none;
+}
+
+.info2{
+    background-image: url("/images/finalbg.png");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+}
