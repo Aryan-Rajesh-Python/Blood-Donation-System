@@ -29,7 +29,7 @@ This project is part of the Internet and Web Programming course (4th Semester) c
 
 ### Installation
 
-   Clone the repository:
+   Steps to run the application:
    ```bash
    
    git clone https://github.com/yourusername/blood-donation-management-system.git
