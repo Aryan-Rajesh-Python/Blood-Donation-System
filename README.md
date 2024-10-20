@@ -33,3 +33,6 @@ This project is part of the Internet and Web Programming course (4th Semester) c
    ```bash
    
    git clone https://github.com/yourusername/blood-donation-management-system.git
+   cd blood-donation-management-system
+   npm install
+   node server.js
